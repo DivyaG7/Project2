@@ -1,0 +1,104 @@
+/* Grid.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    background: transparent;
+    width: 80%;
+    margin: 10px auto;
+  }
+  
+  .column-1 {
+    display: flex;
+    width: 20vw;
+  }
+  
+  .column-2 {
+    display: flex;
+  }
+  
+  .row {
+    display: flex;
+    width: 100%;
+  }
+  
+  .row1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    width: 70px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .horizontal-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .horizontal-nav1 {
+    display: flex;
+    gap: 20px;
+  }
+  .horizontal-nav1 ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .horizontal-nav1 li {
+    margin-right: 10px;
+  }
+  
+  .horizontal-nav1 li a {
+    font-weight: 400;
+  }
+  
+  .dropNav {
+    position: relative;
+  }
+  
+  .subNav {
+    padding: 20px 25px 20px 10px;
+    position: absolute;
+    left: -320%;
+    background-color: #fff;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+  }
+  
+  .colnav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .colnav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: circle;
+  }
+  
+  .colnav ul li {
+    min-width: 310px;
+    display: flex;
+  }
+  
+  .colnav ul li a {
+    font-size: 12px;
+    color: #BDA96C;
+  }
+  
+  .colnav ul li a:hover{
+    color: black;
+  }

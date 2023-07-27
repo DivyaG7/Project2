@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  .contain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+.title {
+    color: #fff;
+    font-family: "Nanum Gothic";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 11.73px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .subtitle {
+    color: #bda96c;
+    font-family: "Nanum Gothic";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 13.03px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .btn {
+    border-radius: 60px;
+    border: none;
+    padding: 20px 40px;
+    background: #bda96c;
+  }
+  .btncont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

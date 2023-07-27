@@ -1,0 +1,70 @@
+.container {
+    height: 80vh;
+    background: radial-gradient(circle, #fff5d8, #e2d09a);
+  }
+  .content {
+    position: relative;
+    height: 100%;
+  }
+  
+  .content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/logo_1.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 800px 600px;
+    opacity: 0.1;
+  }
+  
+  .centered{
+    display: inline-block;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+  }
+  .gridcenter{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .title{
+    font-size: 3rem;
+    background: linear-gradient(90deg, #B09012 0%, #151236 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: "DM Serif Text";
+  }
+  .textbold{
+    font-weight: 700;
+  }
+  
+  .gridcenter1{
+    margin-top: 20px;
+    font-size: 21px;
+  }
+  
+  .infocontent{
+    display: flex;
+    gap: 10px;
+  }
+  .infocontent > span{
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
+  .contain2{
+    display: flex;
+    gap: 10px;
+    border-radius: 16px;
+    background: rgba(217, 211, 192, 0.30);
+  }
+  .containicon{
+    transform: rotate(60deg);
+  }
